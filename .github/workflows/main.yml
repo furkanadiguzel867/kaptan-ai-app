@@ -13,7 +13,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Unzip project
+      - name: unzip project
         run: unzip kaptan_app_project_v2.zip -d kaptan_app_project
 
       - name: Setup JDK
